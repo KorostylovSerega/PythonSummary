@@ -1,5 +1,7 @@
 # Содержание
 - [1. Характеристика языка Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/python.md#1-Характеристика-языка-Python)
+- [2. Типы данных в Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/python.md#2-Типы-данных-в-Python)
+
 ## 1. Характеристика языка Python
 
 ### Высокоуровневый интерпретируемый язык общего назначения, со строгой динамической типизацией.
@@ -35,3 +37,8 @@ Console.Write(a);
 
 ```
 [Содержание⬆️](https://github.com/KorostylovSerega/PythonSummary/edit/main/python.md#содержание)
+
+## 2. Типы данных в Python
+### Типы данных в Python можно разделить на две большие группы, изменяемые и неизменяемые
+
+
