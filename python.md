@@ -65,10 +65,12 @@ print(hex(id(c))) # 0xa3eb08
 - Списки (list)
 - Словари (dict)
 - Множества (set)
+- Байтовые массивы (bytearray)
 #### `Неизменяемые`
 - Числа (int, float, complex)
 - Строки (str, bytes)
 - Кортежи (tuple)
+- Неизменяемые множества (frozenset)
 - Логический тип данных (bool)
 - NoneType
 
