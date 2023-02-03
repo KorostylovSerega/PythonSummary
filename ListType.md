@@ -56,4 +56,4 @@ print(some_list[:-6])  # [1, 1.0, (1+1j), 'str', b'str', (1,), [1]]
 print(some_list[::-6]) # [None, [1], 1]
 # каждый 6-ой ЭЛЕМЕНТ с конца, начиная с последнего
 ```
-[↩Назад](https://github.com/KorostylovSerega/PythonSummary/main/Python.md#2-типы-данных-в-python)
+[↩Назад](https://github.com/KorostylovSerega/PythonSummary/blob/main/Python.md#2-типы-данных-в-python)
