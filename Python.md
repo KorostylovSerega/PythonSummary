@@ -1,6 +1,6 @@
 # Содержание
-- [1. Характеристика языка Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#1-характеристика-языка-python)
-- [2. Типы данных в Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#2-типы-данных-в-python)
+- [1. Характеристика языка Python](https://github.com/KorostylovSerega/PythonSummary/main/Python.md#1-характеристика-языка-python)
+- [2. Типы данных в Python](https://github.com/KorostylovSerega/PythonSummary/main/Python.md#2-типы-данных-в-python)
 
 ## 1. Характеристика языка Python
 
@@ -57,7 +57,7 @@ print(hex(id(b))) # 0xa3eb08
 c = b
 print(hex(id(c))) # 0xa3eb08
 ```
-[⬆️Содержание](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#содержание)
+[⬆️Содержание](https://github.com/KorostylovSerega/PythonSummary/main/Python.md#содержание)
 
 ## 2. Типы данных в Python
 ### Типы данных в Python можно разделить на две большие группы, `изменяемые` и `неизменяемые`.
@@ -173,4 +173,4 @@ print(a == b)    # True
 > id(a)  # 139661811198640
 > id(b)  # 139661811198992
 ```
-[⬆️Содержание](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#содержание)
+[⬆️Содержание](https://github.com/KorostylovSerega/PythonSummary/main/Python.md#содержание)
