@@ -173,3 +173,4 @@ print(a == b)    # True
 > id(a)  # 139661811198640
 > id(b)  # 139661811198992
 ```
+[⬆️Содержание](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#содержание)
