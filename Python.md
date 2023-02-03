@@ -1,6 +1,6 @@
 # Содержание
-- [1. Характеристика языка Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#1-Характеристика-языка-Python)
-- [2. Типы данных в Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#2-Типы-данных-в-Python)
+- [1. Характеристика языка Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#1-характеристика-языка-python)
+- [2. Типы данных в Python](https://github.com/KorostylovSerega/PythonSummary/edit/main/Python.md#2-типы-данных-в-python)
 
 ## 1. Характеристика языка Python
 
@@ -62,7 +62,7 @@ print(hex(id(c))) # 0xa3eb08
 ## 2. Типы данных в Python
 ### Типы данных в Python можно разделить на две большие группы, `изменяемые` и `неизменяемые`.
 #### `Изменяемые`
-- [Списки (list)](https://github.com/KorostylovSerega/PythonSummary/edit/main/ListType.md#Тип-данных-List-(список))
+- [Списки (list)](https://github.com/KorostylovSerega/PythonSummary/edit/main/ListType.md#тип-данных-list-(список))
 - Словари (dict)
 - Множества (set)
 - Байтовые массивы (bytearray)
