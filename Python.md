@@ -62,7 +62,7 @@ print(hex(id(c))) # 0xa3eb08
 ## 2. Типы данных в Python
 ### Типы данных в Python можно разделить на две большие группы, `изменяемые` и `неизменяемые`.
 #### `Изменяемые`
-- Списки (list)
+- [Списки (list)](https://github.com/KorostylovSerega/PythonSummary/edit/main/ListType.md#Тип-данных-List-(список))
 - Словари (dict)
 - Множества (set)
 - Байтовые массивы (bytearray)
