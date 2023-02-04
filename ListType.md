@@ -75,14 +75,14 @@ some_list = [1, 2, 3]
 some_list.append(4)
 print(some_list)  # [1, 2, 3, 4]
 ```
-- #### [list].extend([other_list])
+- ### [list].extend([other_list])
 Расширяет список, добавляя в конец элементы другого списка.
 ```python
 some_list = [1, 2, 3]
 some_list.extend([4, 5, 6])
 print(some_list)  # [1, 2, 3, 4, 5, 6]
 ```
-- #### [list].insert(index, item)
+- ### [list].insert(index, item)
 Вставляет элемент в список, по указаному индексу. Элементы следующие за ним смещаются вправо. Если указаный индекс не существует, элемент будет добавлен в конец списка. При указании отрицательного индекса, счет элементов начинается с конца списка.
 ```python
 some_list = [1, 2, 3]
@@ -95,13 +95,25 @@ print(some_list)  # [1, 4, 2, 3, 4]
 some_list.insert(-10, 4)
 print(some_list)  # [4, 1, 4, 2, 3, 4]
 ```
-- #### [list].remove(item)
+- ### [list].remove(item)
 Удаляет первый элемент с указаным значением. Если значение отсутствует в списке, возникает исключение `ValueError`.
 ```python
 some_list = ['s', 'o', 'm', 'e', '_', 'l', 'i', 's', 't']
 some_list.remove('s')
 print(some_list)       # ['o', 'm', 'e', '_', 'l', 'i', 's', 't']
 some_list.remove('x')  # ValueError: list.remove(x): x not in list
+```
+- ### [list].pop(_index_)
+Удаляет элемент списка по указаному индексу, и возвращает его ввиде объекта (ссылку на объект). Если аргумент не передан, удаляет последний элемент.
+```python
+some_list = [['one'], 2, 3, 4, 5]
+print(some_list[0], id(some_list[0]))  # ['one'] 140232505766848
+elem = some_list.pop(0)
+print(some_list)                       # [2, 3, 4, 5]
+print(elem, id(elem))                  # ['one'] 140232505766848
+
+some_list.pop()
+print(some_list)                       # [2, 3, 4]
 ```
 
 [↩Назад](https://github.com/KorostylovSerega/PythonSummary/blob/main/Python.md#2-типы-данных-в-python)
