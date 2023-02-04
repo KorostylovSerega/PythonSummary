@@ -96,12 +96,19 @@ some_list.insert(-10, 4)
 print(some_list)  # [4, 1, 4, 2, 3, 4]
 ```
 - ### [list].remove(item)
-Удаляет первый элемент с указаным значением. Если значение отсутствует в списке, возникает исключение `ValueError`.
+Удаляет первый элемент с указаным значением (принимает значение, либо переменную). Если такой элемент отсутствует в списке, возникает исключение `ValueError`. Возвращает `None`.
 ```python
-some_list = ['s', 'o', 'm', 'e', '_', 'l', 'i', 's', 't']
-some_list.remove('s')
-print(some_list)       # ['o', 'm', 'e', '_', 'l', 'i', 's', 't']
-some_list.remove('x')  # ValueError: list.remove(x): x not in list
+first = 1
+some_list = [first, 2, 3, 4, 5]
+some_list.remove(1)
+print(some_list) # [2, 3, 4, 5]
+
+first = 1
+some_list = [first, 2, 3, 4, 5]
+some_list.remove(first)  # None
+print(some_list)         # [2, 3, 4, 5]
+
+some_list.remove(6)      # ValueError: list.remove(x): x not in list
 ```
 - ### [list].pop(_index_)
 Удаляет элемент списка по указаному индексу, и возвращает его ввиде объекта (ссылку на объект). Если аргумент не передан, удаляет последний элемент.
